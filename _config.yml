@@ -3,5 +3,6 @@ theme: jekyll-theme-midnight
 ---
 layout: default
 comments: true
+titie: interesting
 # other options
 ---
