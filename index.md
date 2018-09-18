@@ -20,6 +20,7 @@ comments: true
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
+<script id="dsq-count-scr" src="//https-bszqw0410-github-io-notes.disqus.com/count.js" async></script>
 <script>
 
 /**
