@@ -1,9 +1,8 @@
 ---
-comments: true
+comments: false
 # other options
 ---
 
-# 学无止境
 
 ## 统计学
 
