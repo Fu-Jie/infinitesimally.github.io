@@ -1,12 +1,12 @@
 ---
 layout: home
 author_profile: true
-comments: true
+comments: false
 # other options
 ---
 
 
-## 统计学
+<!-- ## 统计学
 
 [ave](https://github.com/infinite-knowledge/infinite-knowledge.github.io/blob/master/_posts/%E5%B9%B3%E5%9D%87%E6%95%B0.md)
 
@@ -18,7 +18,7 @@ comments: true
 
 ## MATLAB
 
-## 其他
+## 其他 -->
 
 {% if page.comments %}
 
