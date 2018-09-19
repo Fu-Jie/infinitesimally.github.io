@@ -2,11 +2,13 @@
 main:
   - title: "Linux"
     url: "../Linux/operator.html"
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "statistics"
+    url:
+  - title: "PowerShell"
+    url: /year-archive/
+  - title: "VB"
+    url: /collection-archive/
+  - title: "js"
+    url: /sitemap/
+  - title: "Python"
+    url: ""
