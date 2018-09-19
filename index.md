@@ -8,6 +8,8 @@ comments: true
 
 ## 统计学
 
+[ave](./_posts/平均数.md)
+
 ## Linux
 
 ## PowerShell
