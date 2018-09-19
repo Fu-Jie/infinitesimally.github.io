@@ -1,5 +1,7 @@
 ---
-comments: false
+layout: home
+author_profile: true
+comments: true
 # other options
 ---
 
