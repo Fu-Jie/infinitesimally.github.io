@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "mint" # "default","air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "诺坎普的草坪"
+title                    : "渌水亭"
 title_separator          : "-"
 name                     : "Jeff"
 description              : "let me see "
 url                      : "https://infinite-knowledge.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/infinite-knowledge.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "infinite-knowledge/infinite-knowledge.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "assets/Mt. Fuji.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -101,14 +101,14 @@ analytics:
 # Site Author
 author:
   name             : "Jeff"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/east.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "老当益壮，宁移白首之心；穷且益坚，不坠青云之志！"
-  location         : "Somewhere"
+  location         : "江西 南昌"
   email            : fj1945@live.cn
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      icon : "fas fa-fw fa-envelope-square"
+      url  : mailto:fj1945@live.cn
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -117,10 +117,10 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/jieffu10"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Fu-Jie"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
