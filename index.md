@@ -8,7 +8,7 @@ comments: true
 
 ## 统计学
 
-[ave](./_posts/平均数.md)
+[ave](https://github.com/infinite-knowledge/infinite-knowledge.github.io/blob/master/_posts/%E5%B9%B3%E5%9D%87%E6%95%B0.md)
 
 ## Linux
 
