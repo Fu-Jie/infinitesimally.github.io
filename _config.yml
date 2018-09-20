@@ -292,4 +292,4 @@ defaults:
       share: true
       related: true
 header:
-  images: /assets/images/fj.jpg
+  image: /assets/images/fj.jpg
