@@ -272,12 +272,12 @@ compress_html:
   ignore:
     envs: development
 
-solitude:
-  sidebar       : true      # enter 'false' to enable horizontal navbar instead.
-  theme_variant : Charcoal  # choose from 'Ocean', 'Grass', 'Charcoal'
-  recent_posts  :
-    style       : list      # choose from 'list' and 'grid'.
-    quantity    : '4'       # either '4' or '6'
+# solitude:
+#   sidebar       : true      # enter 'false' to enable horizontal navbar instead.
+#   theme_variant : Charcoal  # choose from 'Ocean', 'Grass', 'Charcoal'
+#   recent_posts  :
+#     style       : list      # choose from 'list' and 'grid'.
+#     quantity    : '4'       # either '4' or '6'
 # Defaults
 defaults:
   # _posts
