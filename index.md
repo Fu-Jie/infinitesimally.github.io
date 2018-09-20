@@ -1,7 +1,13 @@
 ---
-layout: home
+layout: single
 author_profile: true
 comments: false
+header:
+  overlay_image: "assets/fj.jpg"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 # other options
 ---
 
