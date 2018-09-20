@@ -23,7 +23,7 @@ description              : "let me see "
 url                      : "https://infinite-knowledge.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "infinite-knowledge/infinite-knowledge.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/fj.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/fj.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Jeff"
-  avatar           : "/assets/east.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/east.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "老当益壮，宁移白首之心；穷且益坚，不坠青云之志！"
   location         : "江西 南昌"
   email            : fj1945@live.cn
@@ -120,7 +120,7 @@ author:
       url: "https://www.facebook.com/jieffu10"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Fu-Jie"
+      url: "https://github.com/infinite-knowledge/infinite-knowledge.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
