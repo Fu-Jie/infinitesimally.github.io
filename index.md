@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: home
 author_profile: true
 comments: false
 header:
-  images: /assets/images/fj.jpg
+  image: /assets/images/fj.jpg
 # other options
 ---
 
