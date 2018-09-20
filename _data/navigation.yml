@@ -1,14 +1,14 @@
 # main links
-main:
-  - title: "Linux"
-    url: "../Linux/operator.html"
-  - title: "statistics"
-    url:
-  - title: "PowerShell"
-    url: /year-archive/
-  - title: "VB"
-    url: /collection-archive/
-  - title: "js"
-    url: /sitemap/
-  - title: "Python"
-    url: ""
+# main:
+#   - title: "Linux"
+#     url: "../Linux/operator.html"
+#   - title: "statistics"
+#     url:
+#   - title: "PowerShell"
+#     url: /year-archive/
+#   - title: "VB"
+#     url: /collection-archive/
+#   - title: "js"
+#     url: /sitemap/
+#   - title: "Python"
+#     url: ""
