@@ -291,3 +291,5 @@ defaults:
       comments: true
       share: true
       related: true
+header:
+  images: /assets/images/fj.jpg
