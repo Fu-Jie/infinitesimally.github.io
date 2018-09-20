@@ -2,11 +2,12 @@
 layout: home
 author_profile: true
 comments: false
-
+header:
+  image: /assets/images/east.jpg
 # other options
 ---
 
-# ok
+# osk
 <!-- ## 统计学
 
 [ave](https://github.com/infinite-knowledge/infinite-knowledge.github.io/blob/master/_posts/%E5%B9%B3%E5%9D%87%E6%95%B0.md)
