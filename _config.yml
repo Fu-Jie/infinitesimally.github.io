@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "心如止水"
+title                    : "天为谁春?"
 title_separator          : "-"
 name                     : "Jeff"
 description              : "没事记录一下,学习的心路历程!"
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  home             : this is home
+  # home             : this is home
   name             : "Jeff"
   avatar           : "/assets/images/lwt.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "事了拂衣去,深藏身与名!"
