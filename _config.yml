@@ -275,8 +275,11 @@ defaults:
       type: posts
     values:
       layout: home
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      author_profile : true
+      read_time      : true
+      comments       : true
+      share          : true
+      related        : true
+      toc            : true
+      toc_label      : "目录"
+      toc_icon       : "cog"

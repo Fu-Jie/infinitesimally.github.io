@@ -1,8 +1,12 @@
 ---
 layout    : single
-title     : soft link and hard link
+title     : 链接
 date      : 2018-09-03
 categories: Linux
+tags      : link linux shell
+toc       : true
+toc_label : "My Table of Contents"
+toc_icon  : "cog"
 ---
 
 ## 索引节点
