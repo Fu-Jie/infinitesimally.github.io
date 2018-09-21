@@ -4,9 +4,6 @@ title     : 链接
 date      : 2018-09-03
 categories: Linux
 tags      : link linux shell
-toc       : true
-toc_label : "My Table of Contents"
-toc_icon  : "cog"
 ---
 
 ## 索引节点
@@ -17,7 +14,7 @@ toc_icon  : "cog"
 ```bash
 ln -s 原始文件 建立的链接地址 （应该是要使用绝对路径）
 ```
-软链接可以跨文件系统，可以建立目录或者文件的软链接。软链接的索引接点与原文件或目录不一样。
+软链接可以跨文件系统，可以建立目录或d者文件的软链接。软链接的索引接点与原文件或目录不一样。
 ## 硬链接
 ```bash
 ln 原始文件地址 建立的链接地址
