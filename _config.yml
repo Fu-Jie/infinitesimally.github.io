@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "渌水亭"
+title                    : "心如止水"
 title_separator          : "-"
 name                     : "Jeff"
-description              : "let me see "
+description              : "没事记录一下,学习的心路历程!"
 url                      : "https://infinite-knowledge.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "infinite-knowledge/infinite-knowledge.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/plotly.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  home             : /index.html
+  home             : this is home
   name             : "Jeff"
   avatar           : "/assets/images/lwt.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "事了拂衣去,深藏身与名!"
@@ -102,7 +102,7 @@ author:
   email            : fj1945@live.cn
   links:
     #   fa-fw fixed width 固定宽度
-    - label: "weibo"
+    - label: "微博"
       icon : "fab fa-fw fa-weibo"
       url  : "https://weibo.com/1798483594/profile?topnav=1&wvr=6&is_all=1"
 
@@ -110,7 +110,7 @@ author:
       icon : "fab fa-fw fa-github"
       url  : "https://github.com/infinite-knowledge/infinite-knowledge.github.io"
 
-    - label: "1421677926"
+    - label: "QQ"
       icon : "fab fa-fw fa-qq"
       url  : "https://user.qzone.qq.com/1421677926"
 

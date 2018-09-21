@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: single
 author_profile: true
-comments: true
 header:
   image: /assets/images/basa.jpg
 # other options
