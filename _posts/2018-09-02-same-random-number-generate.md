@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : "repeat_random_num"
+title     : "生成重复的随机数"
 date      : 2018-09-02
 categories: jekyll 统计学
 ---
