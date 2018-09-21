@@ -106,24 +106,19 @@ author:
   location         : "江西 南昌"
   email            : fj1945@live.cn
   links:
-    # - label: "Email"
-    #   icon : "fas fa-fw fa-envelope-square"
-    #   url  : mailto:fj1945@live.cn
+    #   fa-fw fixed width 固定宽度
     - label: "weibo"
-      icon: "fab fa-fw fa-weibo"
-      url: "https://weibo.com/1798483594/profile?topnav=1&wvr=6&is_all=1"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/jieffu10"
+      icon : "fab fa-fw fa-weibo"
+      url  : "https://weibo.com/1798483594/profile?topnav=1&wvr=6&is_all=1"
+
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/infinite-knowledge/infinite-knowledge.github.io"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/infinite-knowledge/infinite-knowledge.github.io"
+
+    - label: "QQ"
+      icon : "fab fa-fw fa-qq"
+      url  : "1421677926"
+
 
 # Site Footer
 footer:
