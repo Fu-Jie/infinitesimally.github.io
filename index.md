@@ -21,10 +21,13 @@ header:
 ## MATLAB
 
 ## 其他 -->
-
+<h2>
   {% for post in site.posts %}
-    <h1>{{post.title}}</h1>
+    {{post.h1}}
   {% endfor %}
+
+</h2>
+
 
 
 {% if page.comments %}
