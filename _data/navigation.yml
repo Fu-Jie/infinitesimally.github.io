@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Linux"
-    url: "../Linux/operator.html"
+    url: ""
   - title: "statistics"
     url:
   - title: "年轮"
@@ -10,5 +10,5 @@ main:
     url: /collection-archive/
   - title: "网站🌲"
     url: /sitemap/
-  - title: "Python"
-    url: ""
+  - title: "自述"
+    url: "/about.md"
