@@ -101,16 +101,16 @@ analytics:
 # Site Author
 author:
   name             : "Jeff"
-  avatar           : "/assets/images/east.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "老当益壮，宁移白首之心；穷且益坚，不坠青云之志！"
+  avatar           : "/assets/images/lwt.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "事了拂衣去,深藏身与名!"
   location         : "江西 南昌"
   email            : fj1945@live.cn
   links:
     # - label: "Email"
     #   icon : "fas fa-fw fa-envelope-square"
     #   url  : mailto:fj1945@live.cn
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: "weibo"
+      icon: "fas fa-fw fa-weibo"
       url: "https://weibo.com/1798483594/profile?topnav=1&wvr=6&is_all=1"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
