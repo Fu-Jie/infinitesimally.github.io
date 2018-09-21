@@ -1,10 +1,10 @@
 ---
 layout    : single
-title     : generate repeat random number
+title     : 生成重复的随机数
 date      : 2018-09-02
-categories: 统计学
+categories: Statistics
 ---
-# 生成重复的随机数
+
 
 ## 使用`rng`函数
 

@@ -1,10 +1,9 @@
 ---
 layout    : single
-title     : "操作符"
+title     : 操作符
 date      : 2018-09-04
 categories: Linux
 ---
-# 操作符 (operators)
 
 ## ; (断句操作符)
 分号断句,一行一行执行,即使之前的运行失败了,也会尝试运行之后的语句.
