@@ -3,12 +3,13 @@ layout: home
 author_profile: true
 header:
   overlay_image: /assets/images/pink.jpg
-  overlay_filter: rgba(0,200,0,0.5) # rgb和透明度
-  image_description: 欢迎到这里
+  overlay_filter: rgba(0,0,0,0.8) # rgb和透明度
+
   caption: "this[**TEST**](https://www.sina.com)"
   actions:
     - label: "Download"
       url: "/assets/images/pink.jpg"
+  image_description: 欢迎到这里
 # other options
 ---
 
@@ -26,11 +27,11 @@ header:
 ## MATLAB
 
 ## 其他 -->
-<ul>
+
   {% for post in site.posts %}
-    <li><a href="{{post.url}}">{{post.title}}</a></li>
+  <h2>{{post.h1}}</h2>
   {% endfor %}
-</ul>
+
 
 
 
