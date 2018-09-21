@@ -94,6 +94,7 @@ analytics:
 
 # Site Author
 author:
+  home             : /index.html
   name             : "Jeff"
   avatar           : "/assets/images/lwt.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "事了拂衣去,深藏身与名!"
@@ -111,7 +112,7 @@ author:
 
     - label: "1421677926"
       icon : "fab fa-fw fa-qq"
-      # url  : "1421677926"
+      url  : "https://user.qzone.qq.com/1421677926"
 
 
 # Site Footer
