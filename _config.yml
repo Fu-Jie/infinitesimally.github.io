@@ -280,7 +280,8 @@ defaults:
       comments       : true
       share          : true
       related        : true
+      # classes 和 toc 会相互影响,默认还是注释wide比较好,需要宽布局的是,指定文章指定就好.
       toc            : true
       toc_label      : "目录"
       toc_icon       : "cog"
-      classes        : wide
+      # classes        : wide
