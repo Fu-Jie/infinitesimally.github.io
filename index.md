@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+title: HOME PAGE
 header:
   overlay_image: /assets/images/pink.jpg
   overlay_filter: rgba(0,0,0,0.8) # rgb和透明度
