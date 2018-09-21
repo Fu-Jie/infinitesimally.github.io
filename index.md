@@ -3,11 +3,12 @@ layout: single
 author_profile: true
 header:
   overlay_image: /assets/images/pink.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "this[**TEST**](https://python.com)"
+  overlay_filter: rgb(12,200,50,0.8) # rgb和透明度
+  image_description: 欢迎那到这里!
+  caption: "this[**TEST**](https://www.sina.com)"
   actions:
     - label: "Download"
-      url: "https://github.com"
+      url: "/assets/images/pink.jpg"
 # other options
 ---
 
