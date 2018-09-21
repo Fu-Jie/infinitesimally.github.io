@@ -27,11 +27,13 @@ header:
 ## MATLAB
 
 ## 其他 -->
-
+<section>
   {% for post in site.posts %}
-  <h2>{{post.h1}}</h2>
-  {% endfor %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    <h2>{{post.h2[0]}}</h2>
 
+  {% endfor %}
+</section>
 
 
 
