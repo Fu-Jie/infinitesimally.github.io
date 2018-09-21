@@ -4,11 +4,11 @@ main:
     url: "../Linux/operator.html"
   - title: "statistics"
     url:
-  - title: "PowerShell"
+  - title: "年轮"
     url: /year-archive/
-  - title: "VB"
+  - title: "门类"
     url: /collection-archive/
-  - title: "js"
+  - title: "网站🌲"
     url: /sitemap/
   - title: "Python"
     url: ""
