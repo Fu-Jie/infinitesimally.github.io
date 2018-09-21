@@ -1,8 +1,8 @@
 ---
-layout    : post
+layout    : single
 title     : "操作符"
 date      : 2018-09-04
-categories: Jekyll Linux
+categories: Linux
 ---
 # 操作符 (operators)
 

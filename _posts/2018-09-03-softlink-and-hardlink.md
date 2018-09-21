@@ -1,8 +1,8 @@
 ---
-layout    : post
-title     : "软链接与硬链接"
+layout    : single
+title     : soft link and hard link
 date      : 2018-09-03
-categories: Jekyll Linux
+categories: Linux
 ---
 # 软链接与硬链接
 ## 索引节点
