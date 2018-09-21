@@ -3,7 +3,7 @@ layout: home
 author_profile: true
 comments: false
 header:
-  image: /assets/images/east.jpg
+  image: /assets/images/basa.jpg
 # other options
 ---
 
