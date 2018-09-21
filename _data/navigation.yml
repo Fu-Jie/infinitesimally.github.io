@@ -11,4 +11,4 @@ main:
   - title: "网站🌲"
     url: /sitemap/
   - title: "自述"
-    url: "/about.md"
+    url: "about.md"
