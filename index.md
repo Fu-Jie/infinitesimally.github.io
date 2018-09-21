@@ -3,8 +3,8 @@ layout: home
 author_profile: true
 header:
   overlay_image: /assets/images/pink.jpg
-  overlay_filter: rgb(12,200,50,0.8) # rgb和透明度
-  image_description: 欢迎那到这里!
+  overlay_filter: rgba(0,200,0,0.5) # rgb和透明度
+  image_description: 欢迎到这里
   caption: "this[**TEST**](https://www.sina.com)"
   actions:
     - label: "Download"
