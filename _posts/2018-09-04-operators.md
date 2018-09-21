@@ -2,7 +2,7 @@
 layout    : post
 title     : "操作符"
 date      : 2018-09-04
-categories: Linux
+categories: Jekyll Linux
 ---
 # 操作符 (operators)
 

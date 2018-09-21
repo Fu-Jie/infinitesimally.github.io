@@ -21,13 +21,11 @@ header:
 ## MATLAB
 
 ## 其他 -->
-<ul>
+
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <h1>{{post.title}}</h1>
   {% endfor %}
-</ul>
+
 
 {% if page.comments %}
 
