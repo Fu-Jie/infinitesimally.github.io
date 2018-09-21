@@ -31,7 +31,7 @@ header:
 <section>
   {% for post in site.posts %}
     <li><a href="{{post.url}}">{{post.title}}</a></li>
-    <h2>{{post.h2[0]}}</h2>
+    <h2>{{post.body}}</h2>
 
   {% endfor %}
 </section>
