@@ -41,7 +41,7 @@
     {% else %}
       {% capture script_path %}{{ script | relative_url }}{% endcapture %}
     {% endif %}
-    <script src="{{ script_path }}" async></script>
+    <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
     <script type="text/x-mathjax-config">
