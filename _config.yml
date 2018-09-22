@@ -204,8 +204,8 @@ sass:
 # pretty  /:categories/:year/:month/:day/:title/
 # ordinal /:categories/:year/:y_day/:title:output_ext
 # none    /:categories/:title:output_ext
-# 一种链接方式,导航栏的路径与真实路径不一样.你甚至可以自定义路径
-permalink: /:title:output_ext          # /:categories/:year/:month/:day/:title:output_ext
+# 一种链接方式,导航栏的路径与真实路径不一样.你甚至可以自定义路径比如 /one/
+permalink: /:slug          # /:categories/:year/:month/:day/:title:output_ext
 
 
 
