@@ -1,7 +1,7 @@
 ---
 layout    : single
 title     : 链接
-date      : 2018-09-03
+# date      : 2018-09-03
 categories: Linux
 tags      : link linux shell
 ---

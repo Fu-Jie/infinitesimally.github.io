@@ -1,7 +1,7 @@
 ---
 layout    : single
 title     : 生成重复的随机数
-date      : 2018-09-02
+# date      : 2018-09-02
 categories: Statistics
 # classes   : wide
 ---
