@@ -3,8 +3,8 @@ main:
   - title: "主页"
     url: index
     description: 这是一个描述
-  - title: "statistics"
-    url:
+  - title: "分类"
+    url: /categories/
   - title: "年轮"
     url: /year-archive/
   - title: "门类"

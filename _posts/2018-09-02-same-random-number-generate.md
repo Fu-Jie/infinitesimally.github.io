@@ -1,12 +1,12 @@
 ---
 # layout    : archive
 title     : 生成重复的随机数
-# date      : 2018-09-02
+date      : 2018-09-23
 categories: Statistics
 # classes   : wide
 # permalink : /one/
 ---
-
+使用python和matlab生成重复的随机数,关键在于种子生成器.
 
 ## 使用`rng`函数
 

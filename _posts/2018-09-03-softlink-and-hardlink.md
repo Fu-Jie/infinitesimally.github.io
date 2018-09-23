@@ -2,9 +2,10 @@
 # layout    : single
 title     : 链接
 # date      : 2018-09-03
-categories: Linux
-tags      : link linux shell
+categories: shell
+tags      :
 ---
+Linux系统,创建快捷方式的2种方法的理解(软链接与硬链接)
 
 ## 索引节点
 索引节点类似一个文件的id号，索引节点是与文件物理地址挂钩的钥匙。

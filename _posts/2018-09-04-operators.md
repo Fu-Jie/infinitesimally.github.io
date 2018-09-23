@@ -1,9 +1,10 @@
 ---
 # layout    : single
 title     : 操作符
-# date      : 2018-09-04
-categories: Linux
+date      : 2018-09-23
+categories: shell
 ---
+Linux shell中的常见的操作符.
 
 ## 分号
 分号断句,一行一行执行,即使之前的运行失败了,也会尝试运行之后的语句.
