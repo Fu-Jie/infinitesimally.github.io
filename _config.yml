@@ -59,7 +59,7 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
-  application_id         : 2d68af50197159f88ec8fd0e14c98eb5
+  application_id         : "EQ4NHYXY0F"
   index_name             : fujie # YOUR_INDEX_NAME
   search_only_api_key    : 13aba9ed982bbfdaeb7ea1692cc5a3db # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
