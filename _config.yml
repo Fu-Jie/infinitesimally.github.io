@@ -209,9 +209,9 @@ permalink: pretty          # /:categories/:year/:month/:day/:title:output_ext
 
 
 
-paginate: 5 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: CN https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -270,7 +270,7 @@ compress_html:
     envs: development
 
 solitude:
-  sidebar       : false      # enter 'false' to enable horizontal navbar instead.
+  sidebar       : true      # enter 'false' to enable horizontal navbar instead.
   theme_variant : Charcoal  # choose from 'Ocean', 'Grass', 'Charcoal'
   recent_posts  :
   style         : grid      # choose from 'list' and 'grid'.
