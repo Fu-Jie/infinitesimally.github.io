@@ -1,16 +1,15 @@
 ---
 # layout:
 author_profile: true
-title: HOME PAGE
+title: Welcome to my blog's home page!
 header:
   overlay_image: /assets/images/pink.jpg
-  overlay_filter: rgba(0,0,0,0.8) # rgb和透明度
+  overlay_filter: rgba(0,100,0,0.2) # rgb和透明度
 
   caption: "this[**TEST**](https://www.sina.com)"
   actions:
     - label: "Download"
       url: "/assets/images/pink.jpg"
-  image_description: 欢迎到这里
 # other options
 ---
 

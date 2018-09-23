@@ -1,5 +1,5 @@
 ---
-layout    : single
+# layout    : single
 title     : 操作符
 # date      : 2018-09-04
 categories: Linux
