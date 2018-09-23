@@ -6,12 +6,12 @@ header:
   overlay_image: /assets/images/pink.jpg
   overlay_filter: rgba(0,100,0,0.2) # rgb和透明度
 
-  caption: "this[**TEST**](https://www.sina.com)"
-  actions:
-    - label: "Download"
-      url: "/assets/images/pink.jpg"
+  # caption: "this[**TEST**](https://www.sina.com)"
+  # actions:
+  #   - label: "Download"
+  #     url: "/assets/images/pink.jpg"
 # other options
-permalink: /home/
+# permalink: /home/
 ---
 
 <!-- # osks -->

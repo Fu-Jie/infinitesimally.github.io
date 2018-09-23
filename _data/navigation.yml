@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "主页"
-    url: /home/
+    url: index
     description: 这是一个描述
   - title: "statistics"
     url:
