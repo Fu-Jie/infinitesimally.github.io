@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default","mint", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN"
 title                    : ""
-title_separator          : "|"
+title_separator          : "-"
 name                     : "Jeff"
 description              : "没事记录一下,学习的心路历程!"
 url                      : "https://infinite-knowledge.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -62,7 +62,7 @@ algolia:
   application_id         : "EQ4NHYXY0F"
   index_name             : fujie # YOUR_INDEX_NAME
   search_only_api_key    : 13aba9ed982bbfdaeb7ea1692cc5a3db # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : true # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
