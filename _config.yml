@@ -63,6 +63,12 @@ algolia:
   index_name             : fujie # YOUR_INDEX_NAME
   search_only_api_key    : 13aba9ed982bbfdaeb7ea1692cc5a3db # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
+  files_to_exclude:
+    - /posts/* # 排除文件
+  nodes_to_index: 'p,blockquote,li,div.paragraph'
+  settings:
+    highlightPreTag: '<em class="custom_highlight">'
+    highlightPostTag: '</em>'
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
