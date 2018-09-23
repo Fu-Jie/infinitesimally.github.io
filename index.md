@@ -1,5 +1,5 @@
 ---
-layout:
+# layout:
 author_profile: true
 title: HOME PAGE
 header:
