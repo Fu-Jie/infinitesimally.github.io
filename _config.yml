@@ -293,6 +293,8 @@ solitude:
   style         : grid      # choose from 'list' and 'grid'.
   quantity      : '4'       # either '4' or '6'
 # Defaults
+header:
+  teaser: "#481036"
 defaults:
   # _posts
   - scope:
