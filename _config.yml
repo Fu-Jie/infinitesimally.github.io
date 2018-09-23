@@ -227,7 +227,7 @@ permalink: /:title          # /:categories/:year/:month/:day/:title:output_ext
 
 
 paginate: 4 # amount of posts to show
-paginate_path: /posts:num/
+paginate_path: /pages:num/
 timezone: Asia/Shanghai
 
 
