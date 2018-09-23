@@ -52,9 +52,12 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+
+# search
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -63,6 +66,8 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -211,7 +216,7 @@ sass:
 # ordinal /:categories/:year/:y_day/:title:output_ext
 # none    /:categories/:title:output_ext
 # 一种链接方式,导航栏的路径与真实路径不一样.你甚至可以自定义路径比如 /one/
-permalink: pretty          # /:categories/:year/:month/:day/:title:output_ext
+permalink: /:title          # /:categories/:year/:month/:day/:title:output_ext
 
 
 
