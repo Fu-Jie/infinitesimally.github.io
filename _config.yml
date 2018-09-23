@@ -270,7 +270,7 @@ compress_html:
     envs: development
 
 solitude:
-  sidebar       : true      # enter 'false' to enable horizontal navbar instead.
+  sidebar       : false      # enter 'false' to enable horizontal navbar instead.
   theme_variant : Charcoal  # choose from 'Ocean', 'Grass', 'Charcoal'
   recent_posts  :
   style         : grid      # choose from 'list' and 'grid'.
@@ -283,7 +283,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile : true
+      author_profile : false
       read_time      : true
       comments       : true
       share          : true
@@ -292,4 +292,4 @@ defaults:
       toc            : true
       toc_label      : "目录"
       toc_icon       : "cog"
-      classes        : wide
+      # classes        : wide
