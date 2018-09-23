@@ -310,7 +310,6 @@ defaults:
       toc_label      : "目录"
       toc_icon       : "cog"
       # classes        : wide
-defaults:
   # _pages
   - scope:
       path: "_pages"
