@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Linux"
-    url: ""
+  - title: "主页"
+    url: /home/
     description: 这是一个描述
   - title: "statistics"
     url:

@@ -11,6 +11,7 @@ header:
     - label: "Download"
       url: "/assets/images/pink.jpg"
 # other options
+permalink: /home/
 ---
 
 <!-- # osks -->
