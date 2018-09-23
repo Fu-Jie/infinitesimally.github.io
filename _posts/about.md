@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: 自述
 permalink: /about/
 ---
