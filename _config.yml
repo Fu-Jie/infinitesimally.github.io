@@ -57,7 +57,7 @@ atom_feed:
 # search
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia, google
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : "EQ4NHYXY0F"
   index_name             : fujie # YOUR_INDEX_NAME
@@ -227,8 +227,8 @@ permalink: /:title          # /:categories/:year/:month/:day/:title:output_ext
 
 
 paginate: 4 # amount of posts to show
-paginate_path: /page:num/
-timezone: CN https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate_path: /posts:num/
+timezone: Asia/Shanghai
 
 
 # Plugins (previously gems:)
