@@ -2,6 +2,7 @@
 main:
   - title: "Linux"
     url: ""
+    description: 这是一个描述
   - title: "statistics"
     url:
   - title: "年轮"
