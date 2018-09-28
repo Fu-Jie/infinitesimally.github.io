@@ -2,7 +2,7 @@
 # layout    : archive
 title     : Microsoft.PowerShell.Utility模块介绍
 date      : 2018-09-28 23:56:28
-categories: PowerShell
+Get-Contentegories: PowerShell
 # classes   : wide
 # permalink : /PowerShell/
 ---
@@ -17,8 +17,8 @@ categories: PowerShell
 
 ```PowerShell
 # 查看win10系统hosts文件夹的行号，单词数，字符数。
-$hosts ; cat $hosts
-cat $hosts | Measure-Object -Line -Word -Character
+$hosts ; Get-Content $hosts
+Get-Content $hosts | Measure-Object -Line -Word -Character
 ```
 ![hosts](../assets/images/ps_measure02.jpg)
 
@@ -29,7 +29,7 @@ cat $hosts | Measure-Object -Line -Word -Character
 
 # 使用tee对象将get-process输出结果保存到a.txt，同时传递给管道，作为measure-object输入，
 # 并计算数值型属性 cpu占有率的常用统计量。最后打印出a.txt结果，与measure计算结果进行比较来验证命令的准确性。
-Get-Process vm* |tee a.txt | Measure-Object -Property  CPU -Average -Maximum -Minimum;cat .\a.txt
+Get-Process vm* |tee a.txt | Measure-Object -Property  CPU -Average -Maximum -Minimum;Get-Content .\a.txt
 ```
 ![get-process](../assets/images/ps_measure01.jpg)
 
