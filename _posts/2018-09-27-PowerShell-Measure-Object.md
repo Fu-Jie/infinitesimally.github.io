@@ -9,9 +9,11 @@ Get-Contentegories: PowerShell
 这个模块包括了许多PowerShell的基础管理命令.意味着该模块是非常通用的
 
 ## Measure-Object
+### Description
 `Measure-Object` 可以用来计算一个对象的数值型属性的值，主要有 `count` `max` `min` `sum`
 `mean`.对于一个文件可以计算，文件的行数，单词数，字符数。(lines、words、characters)
-
+### Alias
+Measure-Object <--->  measure
 ### Example
 
 1. 统计某个文件的行数、字符数、文件数。
@@ -30,5 +32,9 @@ Get-Content $hosts | Measure-Object -Line -Word -Character
 Get-Process vm* |tee a.txt | Measure-Object -Property  CPU -Average -Maximum -Minimum;Get-Content .\a.txt
 ```
 ![get-process](../assets/images/ps_measure01.jpg)
+
+## Compare-Object
+### Description
+
 
 
