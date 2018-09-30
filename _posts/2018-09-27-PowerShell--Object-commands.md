@@ -3,7 +3,7 @@
 title     : Microsoft.PowerShell.Utility模块介绍
 date      : 2018-09-28 23:56:28
 categories: PowerShell
-# classes   : wide
+classes   : wide
 # permalink : /PowerShell/
 ---
 这个模块包括了许多PowerShell的基础管理命令.意味着该模块是非常通用的
@@ -48,7 +48,7 @@ compare、diff
 ### Examples
 1. 使用默认方法,比较2个文本的内容.
     1. 文本名分别为 reference、difference,内容如下：
-    ```Python
+    ```python
     #文件a reference
     a
     b
