@@ -239,7 +239,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-data
-  - jekyll-algolia
+  # - jekyll-algolia
 
 # mimic GitHub Pages with --safe
 whitelist:
