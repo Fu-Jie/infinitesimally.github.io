@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Jeff"
 description              : "没事记录一下,学习的心路历程!"
 url                      : "https://infinite-knowledge.github.io" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "index.html" # the subpath of your site, e.g. "/blog"
 repository               : "infinite-knowledge/infinite-knowledge.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 # teaser                   : "/assets/images/plotly.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
