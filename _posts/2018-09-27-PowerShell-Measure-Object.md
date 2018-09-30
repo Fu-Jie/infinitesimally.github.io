@@ -2,7 +2,7 @@
 # layout    : archive
 title     : Microsoft.PowerShell.Utility模块介绍
 date      : 2018-09-28 23:56:28
-Get-Contentegories: PowerShell
+categories: PowerShell
 # classes   : wide
 # permalink : /PowerShell/
 ---
