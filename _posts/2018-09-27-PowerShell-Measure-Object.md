@@ -17,7 +17,7 @@ Measure-Object <--->  measure
 ### Example
 
 1. 统计某个文件的行数、字符数、文件数。
-```PowerShell
+```powershell
 # 查看win10系统hosts文件夹的行号，单词数，字符数。
 $hosts ; Get-Content $hosts
 Get-Content $hosts | Measure-Object -Line -Word -Character
@@ -25,7 +25,7 @@ Get-Content $hosts | Measure-Object -Line -Word -Character
 ![hosts](../assets/images/ps_measure02.jpg)
 
 2. 计算对象数值型属性的常用统计量。
-```PowerShell
+```powershell
 # 获得了windows中以vm开头的进程的cpu占有率这个数值型属性的最大值、最小值、平均值和数量特征。
 # 使用tee对象将get-process输出结果保存到a.txt，同时传递给管道，作为measure-object输入，
 # 并计算数值型属性 cpu占有率的常用统计量。最后打印出a.txt结果，与measure计算结果进行比较来验证命令的准确性。
