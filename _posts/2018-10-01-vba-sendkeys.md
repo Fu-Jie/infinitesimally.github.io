@@ -1,12 +1,12 @@
 ---
-layout    :
+# layout    :
 title     : vba_sendkeys语句
 date      : 2018-10-01 16:13:31
 categories: vba
 classes   : wide
 # permalink : /powershell/
 ---
-{% raw %}
+
 ## sendkeys 语句
 
 将一个或多个按键消息发送到活动窗口，就如同在键盘上进行输入一样。
@@ -37,13 +37,13 @@ classes   : wide
 
 
 <b>说明</b>
-
+{% raw %}
 每个按键由一个或多个字符表示。为了指定单一键盘字符，必须按字符本身的键。例如，为了表示字母 a，可以用 "a" 作为 <b><i>string</i></b>。为了表示多个字符，就必须在字符后面直接加上另一个字符。例如，要表示 a、b 及 c，可用 "abc" 作为 <b><i>string</i></b>。
 
 对 <b>sendkeys</b> 来说，加号 (<b>+</b>)、插入符 (<b>^</b>)、百分比符号 (<b>%</b>)、上划线 (<b>~</b>) 及圆括号 <b>( ) </b>都具有特殊意义。为了指定上述任何一个字符，要将它放在大括号 (`{}`) 当中。例如，要指定正号，可用 `{+}` 表示。方括号 ([ ]) 对 <b>sendkeys </b>来说并不具有特殊意义，但必须将它们放在大括号中。在其它应用程序中，方括号有特殊意义，在出现动态数据交换 (dde)的时候，它可能具有重要意义。为了指定大括号字符，请使用 `{{} 及 {}}'。
 
 为了在按下按键时指定那些不显示的字符，例如 enter 或 tab 以及那些表示动作而非字符的按键，请使用下列代码：
-
+{% endraw %}
 <table cellpadding=4 cellspacing=4 cols=2>
 
 <tr valign="top">
@@ -267,7 +267,7 @@ classes   : wide
 
  也无法将 print screen 按键 `{prtsc}` 发送到任何应用程序。
 
-{% endraw %}
+
 
 
 
