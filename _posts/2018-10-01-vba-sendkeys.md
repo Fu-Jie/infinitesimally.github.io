@@ -6,7 +6,7 @@ categories: vba
 classes   : wide
 # permalink : /powershell/
 ---
-
+{% raw %}
 ## sendkeys 语句
 
 将一个或多个按键消息发送到活动窗口，就如同在键盘上进行输入一样。
@@ -267,7 +267,7 @@ classes   : wide
 
  也无法将 print screen 按键 `{prtsc}` 发送到任何应用程序。
 
-
+{% endraw %}
 
 
 
