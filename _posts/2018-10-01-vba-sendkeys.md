@@ -1,302 +1,326 @@
 ---
-# layout    : archive
-title     : VBA_Sendkeys语句
+layout    : none
+title     : vba_sendkeys语句
 date      : 2018-10-01 16:13:31
-categories: VBA
+categories: vba
 classes   : wide
-# permalink : /PowerShell/
+# permalink : /powershell/
 ---
 
 
 
 
-<DIV STYLE="display:none;">
-<MSHelp:link id=hhobj_4 keywords="defnamedarguments" indexMoniker="!DefaultAssociativeIndex" errorURL="" disambiguator="menu"  TABINDEX=0></MSHelp:link>
 
-<MSHelp:link id=hhobj_5 keywords="defstringexpression" indexMoniker="!DefaultAssociativeIndex" errorURL="" disambiguator="menu"  TABINDEX=0></MSHelp:link>
 
-<MSHelp:link id=hhobj_6 keywords="defprocedure" indexMoniker="!DefaultAssociativeIndex" errorURL="" disambiguator="menu"  TABINDEX=0></MSHelp:link>
 
-<MSHelp:link id=hhobj_7 keywords="defdde" indexMoniker="!DefaultAssociativeIndex" errorURL="" disambiguator="menu"  TABINDEX=0></MSHelp:link>
 
-</DIV>
+<div style="display:none;">
+<mshelp:link id=hhobj_4 keywords="defnamedarguments" indexmoniker="!defaultassociativeindex" errorurl="" disambiguator="menu"  tabindex=0></mshelp:link>
 
+<mshelp:link id=hhobj_5 keywords="defstringexpression" indexmoniker="!defaultassociativeindex" errorurl="" disambiguator="menu"  tabindex=0></mshelp:link>
 
+<mshelp:link id=hhobj_6 keywords="defprocedure" indexmoniker="!defaultassociativeindex" errorurl="" disambiguator="menu"  tabindex=0></mshelp:link>
 
-<H1><A NAME="vastmsendkeys"></A>SendKeys 语句</H1>
+<mshelp:link id=hhobj_7 keywords="defdde" indexmoniker="!defaultassociativeindex" errorurl="" disambiguator="menu"  tabindex=0></mshelp:link>
 
+</div>
 
 
-<P class=T>将一个或多个按键消息发送到活动窗口，就如同在键盘上进行输入一样。</P>
 
-<p><B>语法</B></p>
+<h1><a name="vastmsendkeys"></a>sendkeys 语句</h1>
 
-<P class=SYN><B>SendKeys</B> <B><I>string</I></B>[, <B><I>wait</I></B>]</P>
+<p class=t>将一个或多个按键消息发送到活动窗口，就如同在键盘上进行输入一样。</p>
 
-<P class=T><B>SendKeys</B> 语句的语法具有以下几个<A HREF="JavaScript:hhobj_4.Click()">命名参数</A>：</P>
+<p><b>语法</b></p>
 
-<TABLE cellpadding=4 cellspacing=4 cols=2>
+<p class=syn><b>sendkeys</b> <b><i>string</i></b>[, <b><i>wait</i></b>]</p>
 
-<TR VALIGN="top">
-<TH width=12%>部分</TH>
-<TH width=88%>描述</TH>
-</TR>
+<p class=t><b>sendkeys</b> 语句的语法具有以下几个<a href="javascript:hhobj_4.click()">命名参数</a>：</p>
 
-<TR VALIGN="top">
-<TD class=T width=12%><B><I>string</I></B></TD>
-<TD class=T width=88%>必需的。<A HREF="JavaScript:hhobj_5.Click()">字符串表达式</A>，指定要发送的按键消息。</TD>
-</TR>
+<table cellpadding=4 cellspacing=4 cols=2>
 
-<TR VALIGN="top">
-<TD class=T width=12%><B><I>Wait</I></B></TD>
-<TD class=T width=88%>可选的。指定等待方式的 BooleandefBooleanDataType@veendf98.chm 值。如果为 <B>False</B>（缺省值），则控件在按键发送出去之后立刻返回到<A HREF="JavaScript:hhobj_6.Click()">过程</A>。如果为 <B>True</B>，则按键消息必须在控件返回到过程之前加以处理。</TD>
-</TR>
-</TABLE><BR>
+<tr valign="top">
+<th width=12%>部分</th>
+<th width=88%>描述</th>
+</tr>
 
-<p></P>
+<tr valign="top">
+<td class=t width=12%><b><i>string</i></b></td>
+<td class=t width=88%>必需的。<a href="javascript:hhobj_5.click()">字符串表达式</a>，指定要发送的按键消息。</td>
+</tr>
 
-<p><B>说明</B></p>
+<tr valign="top">
+<td class=t width=12%><b><i>wait</i></b></td>
+<td class=t width=88%>可选的。指定等待方式的 booleandefbooleandatatype@veendf98.chm 值。如果为 <b>false</b>（缺省值），则控件在按键发送出去之后立刻返回到<a href="javascript:hhobj_6.click()">过程</a>。如果为 <b>true</b>，则按键消息必须在控件返回到过程之前加以处理。</td>
+</tr>
+</table><br>
 
-<P class=T>每个按键由一个或多个字符表示。为了指定单一键盘字符，必须按字符本身的键。例如，为了表示字母 A，可以用 <CODE>"A"</CODE> 作为 <B><I>string</I></B>。为了表示多个字符，就必须在字符后面直接加上另一个字符。例如，要表示 A、B 及 C，可用 <CODE>"ABC"</CODE> 作为 <B><I>string</I></B>。</P>
+<p></p>
 
-<P class=T>对 <B>SendKeys</B> 来说，加号 (<B>+</B>)、插入符 (<B>^</B>)、百分比符号 (<B>%</B>)、上划线 (<B>~</B>) 及圆括号 <B>( ) </B>都具有特殊意义。为了指定上述任何一个字符，要将它放在大括号 ({}) 当中。例如，要指定正号，可用 {<CODE>+}</CODE> 表示。方括号 ([ ]) 对 <B>SendKeys </B>来说并不具有特殊意义，但必须将它们放在大括号中。在其它应用程序中，方括号有特殊意义，在出现<A HREF="JavaScript:hhobj_7.Click()">动态数据交换 (DDE)</A> 的时候，它可能具有重要意义。为了指定大括号字符，请使用 {{}<CODE> </CODE>及 {}}。</P>
+<p><b>说明</b></p>
 
-<P class=T>为了在按下按键时指定那些不显示的字符，例如 ENTER 或 TAB 以及那些表示动作而非字符的按键，请使用下列代码：</P>
+<p class=t>每个按键由一个或多个字符表示。为了指定单一键盘字符，必须按字符本身的键。例如，为了表示字母 a，可以用 <code>"a"</code> 作为 <b><i>string</i></b>。为了表示多个字符，就必须在字符后面直接加上另一个字符。例如，要表示 a、b 及 c，可用 <code>"abc"</code> 作为 <b><i>string</i></b>。</p>
 
-<TABLE cellpadding=4 cellspacing=4 cols=2>
+<p class=t>对 <b>sendkeys</b> 来说，加号 (<b>+</b>)、插入符 (<b>^</b>)、百分比符号 (<b>%</b>)、上划线 (<b>~</b>) 及圆括号 <b>( ) </b>都具有特殊意义。为了指定上述任何一个字符，要将它放在大括号 ({}) 当中。例如，要指定正号，可用 {<code>+}</code> 表示。方括号 ([ ]) 对 <b>sendkeys </b>来说并不具有特殊意义，但必须将它们放在大括号中。在其它应用程序中，方括号有特殊意义，在出现<a href="javascript:hhobj_7.click()">动态数据交换 (dde)</a> 的时候，它可能具有重要意义。为了指定大括号字符，请使用 {{}<code> </code>及 {}}。</p>
 
-<TR VALIGN="top">
-<TH width=25%>按键</TH>
-<TH width=75%>代码</TH>
-</TR>
+<p class=t>为了在按下按键时指定那些不显示的字符，例如 enter 或 tab 以及那些表示动作而非字符的按键，请使用下列代码：</p>
 
-<TR VALIGN="top">
-<TD class=T width=25%>BACKSPACE</TD>
-<TD class=T width=75%>{<CODE>BACKSPACE}</CODE>, {<CODE>BS}</CODE>, 或 {<CODE>BKSP}</CODE></TD>
-</TR>
+<table cellpadding=4 cellspacing=4 cols=2>
 
-<TR VALIGN="top">
-<TD class=T width=25%>BREAK</TD>
-<TD class=T width=75%>{<CODE>BREAK}</CODE></TD>
-</TR>
+<tr valign="top">
+<th width=25%>按键</th>
+<th width=75%>代码</th>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>CAPS LOCK</TD>
-<TD class=T width=75%>{<CODE>CAPSLOCK}</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>backspace</td>
+<td class=t width=75%>{<code>backspace}</code>, {<code>bs}</code>, 或 {<code>bksp}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>DEL or DELETE</TD>
-<TD class=T width=75%>{<CODE>DELETE}</CODE> 或 {<CODE>DEL}</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>break</td>
+<td class=t width=75%>{<code>break}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>DOWN ARROW</TD>
-<TD class=T width=75%>{<CODE>DOWN}</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>caps lock</td>
+<td class=t width=75%>{<code>capslock}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>END</TD>
-<TD class=T width=75%>{<CODE>END}</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>del or delete</td>
+<td class=t width=75%>{<code>delete}</code> 或 {<code>del}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>ENTER </TD>
-<TD class=T width=75%>{<CODE>ENTER}</CODE>或 <CODE>~</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>down arrow</td>
+<td class=t width=75%>{<code>down}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>ESC</TD>
-<TD class=T width=75%>{<CODE>ESC}</CODE></TD>
-</TR>
+<tr valign="top">
+<td class=t width=25%>end</td>
+<td class=t width=75%>{<code>end}</code></td>
+</tr>
 
-<TR VALIGN="top">
-<TD class=T width=25%>HELP</TD>
-<TD class=T width=75%>{<CODE>HELP}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>HOME</TD>
-<TD class=T width=75%>{<CODE>HOME}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>INS or INSERT</TD>
-<TD class=T width=75%>{<CODE>INSERT}</CODE> 或 {<CODE>INS}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>LEFT ARROW</TD>
-<TD class=T width=75%>{<CODE>LEFT}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>NUM LOCK</TD>
-<TD class=T width=75%>{<CODE>NUMLOCK}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>PAGE DOWN</TD>
-<TD class=T width=75%>{<CODE>PGDN}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>PAGE UP</TD>
-<TD class=T width=75%>{<CODE>PGUP}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>PRINT SCREEN</TD>
-<TD class=T width=75%>{<CODE>PRTSC}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>RIGHT ARROW</TD>
-<TD class=T width=75%>{<CODE>RIGHT}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>SCROLL LOCK</TD>
-<TD class=T width=75%>{<CODE>SCROLLLOCK}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>TAB</TD>
-<TD class=T width=75%>{<CODE>TAB}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>UP ARROW</TD>
-<TD class=T width=75%>{<CODE>UP}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F1</TD>
-<TD class=T width=75%>{<CODE>F1}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F2</TD>
-<TD class=T width=75%>{<CODE>F2}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F3</TD>
-<TD class=T width=75%>{<CODE>F3}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F4</TD>
-<TD class=T width=75%>{<CODE>F4}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F5</TD>
-<TD class=T width=75%>{<CODE>F5}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F6</TD>
-<TD class=T width=75%>{<CODE>F6}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F7</TD>
-<TD class=T width=75%>{<CODE>F7}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F8</TD>
-<TD class=T width=75%>{<CODE>F8}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F9</TD>
-<TD class=T width=75%>{<CODE>F9}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F10</TD>
-<TD class=T width=75%>{<CODE>F10}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F11</TD>
-<TD class=T width=75%>{<CODE>F11}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F12</TD>
-<TD class=T width=75%>{<CODE>F12}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F13</TD>
-<TD class=T width=75%>{<CODE>F13}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F14</TD>
-<TD class=T width=75%>{<CODE>F14}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F15</TD>
-<TD class=T width=75%>{<CODE>F15}</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=25%>F16</TD>
-<TD class=T width=75%>{<CODE>F16}</CODE></TD>
-</TR>
-</TABLE><BR>
-
-<p></P>
-
-<P class=T>为了指定那些与 SHIFT、CTRL 及 ALT 等按键结合的组合键，可在这些按键码的前面放置一个或多个代码，这些代码列举如下：</P>
-
-<TABLE cellpadding=4 cellspacing=4 cols=2>
-
-<TR VALIGN="top">
-<TH width=12%>按键</TH>
-<TH width=88%>代码</TH>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=12%>SHIFT</TD>
-<TD class=T width=88%><CODE>+</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=12%>CTRL </TD>
-<TD class=T width=88%><CODE>^</CODE></TD>
-</TR>
-
-<TR VALIGN="top">
-<TD class=T width=12%>ALT</TD>
-<TD class=T width=88%><CODE>%</CODE></TD>
-</TR>
-</TABLE><BR>
-
-<p></P>
-
-<P class=T>为了说明在按下其它按键时应同时按下 SHIFT、CTRL、及 ALT 的任意组合键，请把那些按键的码放在括号当中。例如，为了说明按下 E 与 C 的时候同时按下 SHIFT 键，请使用 "<CODE>+(EC)</CODE>"。为了说明在按下 E 的时候同时按下 SHIFT 键，但接着按 C 而不按 SHIFT，则使用 "<CODE>+EC</CODE>"。</P>
-
-<P class=T>为了指定重复键，使用 {<CODE>key number} </CODE>的形式。必须在 <CODE>key</CODE> 与 <CODE>number</CODE> 之间放置一个空格。例如，{<CODE>LEFT 42}</CODE> 意指 42 次按下 LEFT ARROW 键；{<CODE>h 10}</CODE> 则是指 10 次按下 H 键。</P>
-
-<P class=NT><B>注意</B>   不能用 <B>SendKeys </B>将按键消息发送到这样一个应用程序，这个应用程序并没有被设计成在 Microsoft Windows  or Macintosh中运行。<B>Sendkeys</B> 也无法将 PRINT SCREEN 按键 {<CODE>PRTSC</CODE>} 发送到任何应用程序。</P>
-
-<P class=NT></P>
-
-<P class=T></P>
-
-<P class=T></P>
-
-<P class=T></P>
-
-<P class=T></P>
-
-<P class=T></P>
+<tr valign="top">
+<td class=t width=25%>enter </td>
+<td class=t width=75%>{<code>enter}</code>或 <code>~</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>esc</td>
+<td class=t width=75%>{<code>esc}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>help</td>
+<td class=t width=75%>{<code>help}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>home</td>
+<td class=t width=75%>{<code>home}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>ins or insert</td>
+<td class=t width=75%>{<code>insert}</code> 或 {<code>ins}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>left arrow</td>
+<td class=t width=75%>{<code>left}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>num lock</td>
+<td class=t width=75%>{<code>numlock}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>page down</td>
+<td class=t width=75%>{<code>pgdn}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>page up</td>
+<td class=t width=75%>{<code>pgup}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>print screen</td>
+<td class=t width=75%>{<code>prtsc}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>right arrow</td>
+<td class=t width=75%>{<code>right}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>scroll lock</td>
+<td class=t width=75%>{<code>scrolllock}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>tab</td>
+<td class=t width=75%>{<code>tab}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>up arrow</td>
+<td class=t width=75%>{<code>up}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f1</td>
+<td class=t width=75%>{<code>f1}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f2</td>
+<td class=t width=75%>{<code>f2}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f3</td>
+<td class=t width=75%>{<code>f3}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f4</td>
+<td class=t width=75%>{<code>f4}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f5</td>
+<td class=t width=75%>{<code>f5}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f6</td>
+<td class=t width=75%>{<code>f6}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f7</td>
+<td class=t width=75%>{<code>f7}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f8</td>
+<td class=t width=75%>{<code>f8}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f9</td>
+<td class=t width=75%>{<code>f9}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f10</td>
+<td class=t width=75%>{<code>f10}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f11</td>
+<td class=t width=75%>{<code>f11}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f12</td>
+<td class=t width=75%>{<code>f12}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f13</td>
+<td class=t width=75%>{<code>f13}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f14</td>
+<td class=t width=75%>{<code>f14}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f15</td>
+<td class=t width=75%>{<code>f15}</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=25%>f16</td>
+<td class=t width=75%>{<code>f16}</code></td>
+</tr>
+</table><br>
+
+<p></p>
+
+<p class=t>为了指定那些与 shift、ctrl 及 alt 等按键结合的组合键，可在这些按键码的前面放置一个或多个代码，这些代码列举如下：</p>
+
+<table cellpadding=4 cellspacing=4 cols=2>
+
+<tr valign="top">
+<th width=12%>按键</th>
+<th width=88%>代码</th>
+</tr>
+
+<tr valign="top">
+<td class=t width=12%>shift</td>
+<td class=t width=88%><code>+</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=12%>ctrl </td>
+<td class=t width=88%><code>^</code></td>
+</tr>
+
+<tr valign="top">
+<td class=t width=12%>alt</td>
+<td class=t width=88%><code>%</code></td>
+</tr>
+</table><br>
+
+<p></p>
+
+<p class=t>为了说明在按下其它按键时应同时按下 shift、ctrl、及 alt 的任意组合键，请把那些按键的码放在括号当中。例如，为了说明按下 e 与 c 的时候同时按下 shift 键，请使用 "<code>+(ec)</code>"。为了说明在按下 e 的时候同时按下 shift 键，但接着按 c 而不按 shift，则使用 "<code>+ec</code>"。</p>
+
+<p class=t>为了指定重复键，使用 {<code>key number} </code>的形式。必须在 <code>key</code> 与 <code>number</code> 之间放置一个空格。例如，{<code>left 42}</code> 意指 42 次按下 left arrow 键；{<code>h 10}</code> 则是指 10 次按下 h 键。</p>
+
+<p class=nt><b>注意</b>   不能用 <b>sendkeys </b>将按键消息发送到这样一个应用程序，这个应用程序并没有被设计成在 microsoft windows  or macintosh中运行。<b>sendkeys</b> 也无法将 print screen 按键 {<code>prtsc</code>} 发送到任何应用程序。</p>
+
+<p class=nt></p>
+
+<p class=t></p>
+
+<p class=t></p>
+
+<p class=t></p>
+
+<p class=t></p>
+
+<p class=t></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
