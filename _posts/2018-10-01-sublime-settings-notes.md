@@ -50,6 +50,27 @@ classes   : wide
     <scope>source.json</scope>
 </snippet>
 ```
+## 快捷键设置代码片段
 
+_NOTE_: 快捷键的设置是大小写敏感的,都是小写键来设置快捷键!
 
+```xml
+<snippet>
+    <content><![CDATA[
+{
+    "keys":["${1:}"],
+    "command": "${2:}",
+    ${3:"args":
+    {
+        $4
+    }
+    }
+}]]></content>
+    <tabTrigger>kb</tabTrigger>
+    <scope>source.json</scope>
+    <description>按键绑定片段</description>
+</snippet>
+```
+![snippet paly](../assets/images/sublime_keybind.gif)
 
+<p class="recent_update" style="text-align: right;color: #108080;font-style: italic;font-size: large;">最后更新:2018-10-02 20:55:08</p>
