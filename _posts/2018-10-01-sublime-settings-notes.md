@@ -5,6 +5,7 @@ date      : 2018-10-01 21:30:05
 categories: Sublime_Text
 classes   : wide
 # permalink : /PowerShell/
+teaser    : ../assets/images/sublime_keybind.gif
 ---
 这里记录一些有关sublimetxt使用的一些技巧，做个备忘。
 
