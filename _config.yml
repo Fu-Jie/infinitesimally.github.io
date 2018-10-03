@@ -27,14 +27,14 @@ repository               : &repo "infinitesimally/infinitesimally.github.io" # G
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 30
 comments:
-  provider               : "gittalk" # "gittalk",false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # "gittalk",false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : https-bszqw0410-github-io-notes
   gittalk:
     clientID             : 4cccb03603dd106e7bd9 # GitHub Application Client ID
     clientSecret         : 9cfe8645aa86d59e88c5b972f02db8c7f3da9c67 # GitHub Application Client Secret
     repository           : *repo  # GitHub repo
-    owner                : &owner infinite-knowledge # GitHub repo owner
+    owner                : &owner infinitesimally # GitHub repo owner
     admin                : *owner
 
 reCaptcha:
