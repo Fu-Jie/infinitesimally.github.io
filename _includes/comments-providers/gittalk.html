@@ -1,0 +1,15 @@
+<div id="gitalk-container"></div>
+<script>
+window.Lazyload.css('https://unpkg.com/gitalk/dist/gitalk.css');
+window.Lazyload.js('https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css', function() {
+    var gitalk = new Gitalk({
+        clientID: '{{ site.comments.gittalk.clientID }}',
+        clientSecret: '{{ site.comments.gittalk.clientSecret }}',
+        repo: '{{ site.comments.gittalk.repository }}',
+        owner: '{{ site.comments.gittalk.owner }}',
+        admin: 'site.comments.gittalk.admin',
+        id: '{{ page.url | absolute_url }}'
+    });
+    gitalk.render('js-gitalk-container');
+});
+</script>
