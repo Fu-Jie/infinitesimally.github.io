@@ -12,7 +12,7 @@
         repo: '{{ site.comments.gittalk.repository }}',
         owner: '{{ site.comments.gittalk.owner }}',
         admin: ['{{site.comments.gittalk.admin}}'],
-        id: '{{ page.url | absolute_url }}'
+        id: '{{ page.url}}'
     });
     gitalk.render('gitalk-container');
 

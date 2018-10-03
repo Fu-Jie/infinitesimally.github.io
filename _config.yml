@@ -32,7 +32,7 @@ comments:
     shortname            : https-bszqw0410-github-io-notes
   gittalk:
     clientID             : 4cccb03603dd106e7bd9 # GitHub Application Client ID
-    clientSecret         : 34864d39c6e30a8b8f3982cc72509f2d6f1816ee # GitHub Application Client Secret
+    clientSecret         : 9cfe8645aa86d59e88c5b972f02db8c7f3da9c67 # GitHub Application Client Secret
     repository           : *repo  # GitHub repo
     owner                : &owner infinite-knowledge # GitHub repo owner
     admin                : *owner
